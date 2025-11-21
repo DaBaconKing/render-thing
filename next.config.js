@@ -6,12 +6,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "**",
       },
-    ],
-    
-    output: 'export',
-    // Optional: Add other static export configurations like trailingSlash
+     ],
     };
   },
+
+  output: 'export',
 };
 
 module.exports = nextConfig;
