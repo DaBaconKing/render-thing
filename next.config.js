@@ -7,6 +7,10 @@ const nextConfig = {
         hostname: "**",
       },
     ],
+    
+    output: 'export',
+    // Optional: Add other static export configurations like trailingSlash
+    };
   },
 };
 
